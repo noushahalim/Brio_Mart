@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/Home.css">
+  </head>
+  <body>
+    <div class="main" id="#Home">
+      <div class="nav">
+        <img src="images/logo white.jpeg" alt="logo" class="logo" />
+        <a href="/home" class="home">HOME</a>
+        <a href="/logout" class="logout">LOG OUT</a>
+      </div>
+      <div class="bottom">
+        <h1>Welcome to the Home Page</h1>
+        <br>
+        <h2>List of Users:</h2>
+        <br>
+        <ul>
+          <% users.forEach((user) => { %>
+          <li><%= user.name %></li>
+          <% }); %>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

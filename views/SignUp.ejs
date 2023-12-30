@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-UP</title>
+    <link rel="stylesheet" href="css/SignUp.css">
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            
+            <div class="signUp">
+                <img src="images/logo png no slogan.png" alt="logo" class="logo">
+                <p class="signUp-text">Sign-Up</p>
+                <form action="/signUp" method="post">
+                    <label for="name" class="text-1">Name : </label><br>
+                    <input type="text" name="name" id="" class="input-box" required><br>
+
+                    <label for="email" class="text-1">Email : </label><br>
+                    <input type="email" name="email" id="" class="input-box" required><br>
+
+                    <label for="number" class="text-1">Mobile : </label><br>
+                    <input type="number" name="number" id="" class="input-box" required><br>
+
+                    <label for="password" class="text-1">Password : </label><br>
+                    <input type="password" name="password" id="" class="input-box" required><br>
+                    
+                    <label for="password" class="text-1">Confirm Password : </label><br>
+                    <input type="password" name="password2" id="" class="input-box" required><br><br>
+                    <% if (typeof error !== 'undefined') { %>
+                        <center><p style="color: red; margin-top: -5px; margin-bottom: 5px;"><%= error %></p></center>
+                    <% } %>
+                    <input type="submit" class="submit" value="Submit">
+                </form>
+                <p class="alrdy">Already a member? <a href="/" class="login">Log In</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/signUpVal.js"></script>
+</body>
+</html>

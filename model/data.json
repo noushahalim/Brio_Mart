@@ -1,0 +1,51 @@
+[
+  {
+    "name": "aaa",
+    "email": "asad@gmail.com",
+    "number": "1234567890",
+    "password": "Asdf123@",
+    "password2": "Asdf123@"
+  },
+  {
+    "name": "ALI",
+    "email": "ali@gmail.com",
+    "number": "9946166575",
+    "password": "Ali@6575",
+    "password-2": "Ali@6575"
+  },
+  {
+    "name": "Sinan",
+    "email": "sinan@gmail.com",
+    "number": "98736646658",
+    "password": "sinu",
+    "password-2": "sinu"
+  },
+  {
+    "name": "Najas",
+    "email": "najas@gmail.com",
+    "number": "909090909090",
+    "password": "najas",
+    "password-2": "najas"
+  },
+  {
+    "name": "Muhammed Amjath k",
+    "email": "muhammedamjath0@gmail.com",
+    "number": "8943454306",
+    "password": "amjathk",
+    "password-2": "amjath.k"
+  },
+  {
+    "name": "Fayis . mt",
+    "email": "fayizmt@gmail.com",
+    "number": "7012144021",
+    "password": "iamfais",
+    "password-2": "iamfais"
+  },
+  {
+    "name": "NOUSHAH ALI",
+    "email": "noushahalimanappuram786@gmail.com",
+    "number": "9747323239",
+    "password": "iam",
+    "password-2": "iam"
+  }
+]
